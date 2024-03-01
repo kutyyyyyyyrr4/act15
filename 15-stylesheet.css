@@ -1,0 +1,73 @@
+@import url(
+'https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", 'Courier New', Courier, monospace;
+}
+
+.container {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background-image: url(https://wallpapercave.com/wp/wp5507296.jpg);
+}
+
+.app-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	color: #fff;
+}
+
+.headings-container {
+	padding: 0.5rem;
+}
+
+.interaction-container {
+	display: flex;
+	align-items: normal;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	padding: 1px;
+}
+
+.text-control {
+	padding: 2.0rem;
+	margin:2rem 0;
+	background-color: #3f464a52;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 10px;
+    border:double;
+    font-size: 20px;
+}
+
+.text-control:focus-visible {
+	outline: none;
+}
+
+.error-para {
+	color: red;
+}
+
+.btn {
+	padding: 0.8rem;
+	background-image: linear-gradient(90deg, #f050c0, #e5a6e0);
+	border: 1px solid transparent;
+	border-radius: 10px;
+	color: rgb(6, 0, 7);
+	cursor: pointer;
+	transition: all 0.25s;
+}
+
+.btn:hover {
+	padding: 1rem;
+}
